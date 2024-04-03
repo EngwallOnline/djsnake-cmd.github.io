@@ -1,0 +1,147 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+ }
+ 
+ body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    color: #000000;
+ }
+ 
+ .content-wrap{
+    flex: 1;
+    padding-bottom: 125px;
+ }
+
+ .bottom-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+ }
+
+ .btn-custom{
+   background-color: #000000;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 12px;
+   text-decoration: none;
+   color: #f8f9fa;
+   padding: 8px 16px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-custom:active {
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
+
+.btn-custom:hover{
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ 
+ .site-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 98%;
+    background-color: #F0F0F0;
+    height: 50px;
+    z-index: 1;
+}
+
+.site-header a{
+    font-family: "EB Garamond", serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 20px;
+    color: black;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+}
+
+.site-header a:hover{
+    font-size: 1.1em;
+    color: #c1a37a;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+}
+
+ 
+ .site-header a{
+    font-family: "EB Garamond", serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 20px;
+    color: black;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+ }
+ 
+ .site-header a:hover{
+    font-size: 1.1em;
+    color: #c1a37a;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+ }
+ 
+ .site-footer{
+    backdrop-filter: saturate(180%), blur(20px);
+    background-color: #F0F0F0;
+ }
+
+ .totals-div{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 15px;
+}
+ 
+ .description-text{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+
+.card-text{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.bread-container{
+    position: absolute;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    width: auto;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+ 
+ ::-webkit-scrollbar-thumb{
+    background: #343a40;
+    border-radius: 10px;
+ 
+ }
+ ::-webkit-scrollbar-track{
+    border-radius: 10px;
+ }
+ ::-webkit-scrollbar{
+    width: 15px;
+ }
+
+  .eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }

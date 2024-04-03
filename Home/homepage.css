@@ -1,0 +1,125 @@
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000000;
+}
+
+.welcome-heading{
+    font-family: "EB Garamond", serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 100px;
+    width: 100vw;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 100px;
+    
+}
+
+.site-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 98%;
+    background-color: #F0F0F0;
+    height: 50px;
+    z-index: 1;
+    
+}
+
+.site-header a{
+    font-family: "EB Garamond", serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 20px;
+    color: #000000;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+    
+}
+
+.site-header a:hover{
+    font-size: 1.1em;
+    color: #bba17c;
+    transition: color .15s ease-in-out, font-size .20s ease-in-out;
+}
+
+.site-footer{
+    backdrop-filter: saturate(180%), blur(20px);
+    background-color: #F0F0F0;
+    color: #000000;
+}
+
+.site-footer a{
+    font-family: "EB Garamond", serif;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-footer a:hover{
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #343a40;
+    border-radius: 5px;
+
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+.site-contactform-container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.site-contactform {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+
+
+}
+
+#imageCarousel{
+    margin: 20px auto;
+    max-width: 26%;
+    height: 695px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.carousel-indicators {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+
+
+  .eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+    
+   
+    

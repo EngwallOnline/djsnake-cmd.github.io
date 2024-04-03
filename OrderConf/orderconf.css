@@ -1,0 +1,114 @@
+.form{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center; 
+}
+.purchase-container{
+    display: flex;
+    position: fixed;
+    justify-self: center;
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    top: 100px;
+    width: 500px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#cartProducts{
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid;
+    overflow-x: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+#cartProducts td{
+    min-width: 100px;
+    border: 1px solid #DDD;
+    padding: 8px;
+}
+
+.cart-header{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    padding: 10px;
+}
+
+#cartProducts tr:nth-child(even){background-color: #f8f9fa;}
+
+.cart-header{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.title-txt{
+    max-width: 300px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-img-top{
+    grid-column: 1;
+    padding-bottom: 20px;
+}
+
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+}
+
+.card-txt{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: small;
+    text-align: center;
+}
+
+.header-purchase{
+    font-family: "EB Garamond", serif;
+}
+
+.bread-container-conf{
+    margin: 0 auto;
+    
+    display: flex;
+    
+    flex-direction: column;
+    width: auto;
+    bottom: 0;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    
+}
+
+.card-body{
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+  .eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,41 @@
+.cart-header{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.title-txt{
+        max-width: 300px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+.rmv-btn{
+    border: none;
+    background-color: white;
+}
+
+.rmv-btn:hover{
+    color: red;
+}
+
+#cartProducts{
+    justify-content: center;
+    border: 1px solid;
+    overflow-x: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+#cartProducts td{
+    min-width: 100px;
+    border: 1px solid #DDD;
+    padding: 8px;
+}
+
+#cartProducts tr:nth-child(even){background-color: #f8f9fa;}
+
+.tables-top td{
+    border: 1px;
+    text-align: right;
+}

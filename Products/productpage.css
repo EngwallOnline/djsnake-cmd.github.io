@@ -1,0 +1,123 @@
+.dropbtn {
+    color: black;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+    border: none;
+    width: 130px;
+    height: 50px;
+    background: none;
+    cursor: pointer;
+  }
+
+.btn-cstm{
+    background: none;
+    border: none;
+}
+.dropdown {
+    display: inline-block;
+    left: 0;
+    top: 0;
+  }
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    font-family: "EB Garamond", serif;
+    background:none;
+    border:none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 130px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    
+}
+
+.btn-cstm:hover{
+    transform: scale(1.5);
+}
+
+.card{
+    position: relative;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    border: none;
+}
+
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+}
+
+.align-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.description-text{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.card-img-container a:hover{
+    width: 110%;
+    height: 110%;
+}
+
+.card-img-container img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.card-body{
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #343a40;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+  .eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  
